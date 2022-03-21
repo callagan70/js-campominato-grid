@@ -19,14 +19,14 @@ body{
 /* SECTION - Inizio header */
 
    header{
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: space-between;
-       padding-left: 250px;
-       padding-right: 250px;
-       width: 100%;
-       height: 10vh;
-       margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-left: 250px;
+        padding-right: 250px;
+        width: 100%;
+        height: 10vh;
+        margin-top: 20px;
         align-items: center;
     }
 
@@ -55,4 +55,8 @@ footer{
     height: 5vh;
     vertical-align: middle;
     padding-top: 1em;
+}
+
+footer span{
+    margin-right: inherit;
 }
