@@ -1,0 +1,58 @@
+/* Inizio Utility */
+*{Padding: 0;
+    Margin: 0;
+    Box-sizing: border-box}
+         
+  .clearfix::after{
+   content: "";
+   display: table;
+   clear: both;}
+     
+  html {
+   scroll-behavior: smooth;}
+   /* Fine Utility */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* SECTION - Inizio header */
+
+   header{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       padding-left: 250px;
+       padding-right: 250px;
+       width: 100%;
+       height: 10vh;
+       margin-top: 20px;
+        align-items: center;
+    }
+
+   header div:first-child{
+        display: flex;
+        flex-wrap: wrap;
+        width: fit-content;
+        align-items: center;}
+
+    header img, span, select{
+        margin-right: 1em;
+    }
+/* !SECTION - Fine header */
+
+/* SECTION - Inizio Section 1 */
+section{
+        background-color: #7FFFD4;
+        width: 100%;
+        height: 85vh;
+    }
+/* !SECTION - fine Section 1 */
+
+/* SECTION Footer */
+footer{
+    margin-left: 250px;
+    height: 5vh;
+    vertical-align: middle;
+    padding-top: 1em;
+}
